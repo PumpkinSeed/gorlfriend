@@ -18,6 +18,6 @@ You don't deserve me.
 $ gorlfriend version
 You're not good enough!
 
-$ gorlfirend version
+$ gorlfriend version
 go version go1.10rc1 darwin/amd64
 ```
