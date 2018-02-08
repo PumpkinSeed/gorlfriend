@@ -1,5 +1,7 @@
 # gorlfriend
 
+**It's a JOKE!**
+
 GOrlfriend is an alternative go cli tool which behave as a girlfriend.
 There is 75% chance she will do what you want. 
 
