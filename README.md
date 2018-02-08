@@ -1,6 +1,7 @@
 # gorlfriend
 
-GOrlfriend is an alternative go cli tool which behave as a girlfriend
+GOrlfriend is an alternative go cli tool which behave as a girlfriend.
+There is 75% chance she will do what you want. 
 
 ### Installation
 
@@ -16,4 +17,7 @@ You don't deserve me.
 
 $ gorlfriend version
 You're not good enough!
+
+$ gorlfirend version
+go version go1.10rc1 darwin/amd64
 ```
