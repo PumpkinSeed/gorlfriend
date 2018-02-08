@@ -6,6 +6,8 @@ import (
 	"os"
 	"os/exec"
 	"time"
+
+	"github.com/janczer/MoonPhase"
 )
 
 func main() {
@@ -27,6 +29,11 @@ func main() {
 }
 
 func getBehavior() bool {
+	// Once in a full moon
+	if time.Until(time.Unix(int64(MoonPhase.New(time.Now().Add(-time.Hour*24)).NextFullMoon()), 0)) < time.Hour*24 {
+		return true
+	}
+
 	if randInt(1, 20) > 5 {
 		return false
 	}
